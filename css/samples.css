@@ -1,0 +1,17 @@
+/*
+
+*/
+.loader {
+    margin: 6px 8px 4px 8px;
+    display: none;
+    visibility: hidden;
+    position: absolute !important;
+}
+.loader.active {
+    display:block;
+    visibility: visible;
+}
+
+@media (max-width: 768px) {
+    .navbar-right {display:none; visibility:hidden;}
+}
